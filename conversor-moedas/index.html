@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="page-title">Conversor de moedas </h1>
+      <p class="page-subtitle">Descubra os valores em Dolar ou Euro</p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      <label for="moeda">Insira o valor</label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="converterEmDolar()">Converter em Dolar</button>
+      <button type="submit" onclick="converterEmEuro()">Converter em Euro</button>
+      <h2 id="valorConvertido"></h2>
+      <h2 id="valorConvertidoBitcoin"></h2>
+    </div>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
