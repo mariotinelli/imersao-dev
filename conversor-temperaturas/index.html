@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="page-title">Conversor de temperaturas</h1>
+      <p class="page-subtitle">Descubra as temperaturas em Fahrenheit, Kelvin e Celsius  </p>
+
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+      <label for="moeda">Defina as conversões</label><br><br>
+
+      <select name="converter" id="converter"></select><br>
+
+      <input type="number" id="temperatura" size="2" placeholder="Digite uma temperatura"/><br>
+
+      <select name="convertido" id="convertido"></select><br>
+
+      <button type="submit" onclick="converter()">Converter</button>    
+
+      <h2 id="valorConvertido"></h2>
+    </div>       
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
